@@ -1,0 +1,43 @@
+.pl {
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.pl-texts {
+  width: 65%;
+}
+
+.pl-title {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.pl-desc {
+  margin: 20px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.pl-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+
+
+@media (max-width: 500px) {
+  .pl-texts {
+    width: 100%;
+  }
+  
+  .pl-title {
+    font-size: 25px;
+    color: #222;
+    font-weight: 600;
+  }
+}
